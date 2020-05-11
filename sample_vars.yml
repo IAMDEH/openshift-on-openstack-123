@@ -28,13 +28,6 @@ registry_replicas: 1
 openshift_user: admin
 openshift_passwd: <password>
 
-### Red Hat Subscription ###
-### This is only needed for openshift-enterprise ###
-subscription_use_username: True
-rhn_username_or_org_id: <user or org id>
-rhn_password_or_activation_key: <password or activation key>
-rhn_pool: <pool>
-
 ### OpenStack Instance Count ###
 master_count: 1
 infra_count: 1
